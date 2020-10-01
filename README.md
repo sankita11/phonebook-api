@@ -8,13 +8,13 @@ npm start
 
 server will start on port 3006 
 
-APIs included
+# APIs included
 
-# create session for authenticating user in subsequent API calls
+## create session for authenticating user in subsequent API calls
 POST /login
 
-# All the APIs listed below will require session cookies in request headers otherwise they will fail
-# create contact
+## All the APIs listed below will require session cookies in request headers otherwise they will fail
+### create contact
 POST /create
 Request Body
 {
@@ -24,13 +24,13 @@ Request Body
     "landline": ".."
 }
 
-# get full list of contacts
+### get full list of contacts
 GET /contacts
 
-# get a contact by id
+### get a contact by id
 GET /contact/:id
 
-# update a contact 
+### update a contact 
 POST /contact/update/:id
 Request Body
 {
@@ -40,6 +40,6 @@ Request Body
     "landline": ".."
 }
 
-# delete contact
+### delete contact
 POST /contact/delete/:id
 
