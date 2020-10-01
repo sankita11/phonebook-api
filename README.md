@@ -1,9 +1,9 @@
 # phonebook-api
 
-Initialize app
+### Initialize app
 npm install
 
-Start the server
+### Start the server
 npm start
 
 server will start on port 3006 
