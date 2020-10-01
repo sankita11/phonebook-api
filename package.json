@@ -1,0 +1,34 @@
+{
+  "name": "phonebook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./contacts/test/contact.test.js",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sankita11/phonebook-api.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sankita11/phonebook-api/issues"
+  },
+  "homepage": "https://github.com/sankita11/phonebook-api#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase": "^7.21.1",
+    "firebase-admin": "^9.2.0",
+    "mocha": "^8.1.3",
+    "nodemon": "^2.0.4"
+  }
+}
